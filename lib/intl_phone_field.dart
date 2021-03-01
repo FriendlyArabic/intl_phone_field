@@ -292,6 +292,8 @@ class _IntlPhoneFieldState extends State<IntlPhoneField> {
                     countryISOCode: _selectedCountry['code'],
                     countryCode: _selectedCountry['dial_code'],
                     number: value,
+                    flag: _selectedCountry['flag'],
+                    countryName: _selectedCountry['name'],
                   ),
                 );
             },
